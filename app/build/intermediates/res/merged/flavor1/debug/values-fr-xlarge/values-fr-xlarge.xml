@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/VZ/StudioProjects/FreeFlight2/app/src/main/res/values-fr-xlarge/guest_space_dimentions.xml -->
+    <eat-comment/>
+    <dimen name="guest_space_bottom_buttons_padding">0dp</dimen>
+    <dimen name="guest_space_bottom_buttons_text_size">24sp</dimen>
+    <dimen name="guest_space_super_stable_description_text_size">29sp</dimen>
+    <!-- From: file:/C:/Users/VZ/StudioProjects/FreeFlight2/app/src/main/res/values-fr-xlarge/hud_screen_dimentions.xml -->
+    <eat-comment/>
+    <dimen name="hud_popup_height">170dp</dimen>
+    <dimen name="hud_popup_text_size">28sp</dimen>
+    <dimen name="hud_popup_width">720dp</dimen>
+</resources>

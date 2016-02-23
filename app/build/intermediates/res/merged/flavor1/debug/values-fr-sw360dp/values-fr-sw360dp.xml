@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/VZ/StudioProjects/FreeFlight2/app/src/main/res/values-fr-sw360dp/hud_screen_dimentions.xml -->
+    <eat-comment/>
+    <dimen name="hud_popup_text_size">17sp</dimen>
+</resources>

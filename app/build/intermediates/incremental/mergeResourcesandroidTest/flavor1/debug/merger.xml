@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\VZ\StudioProjects\FreeFlight2\app\src\androidTest\res"/><source path="C:\Users\VZ\StudioProjects\FreeFlight2\app\build\generated\res\rs\androidTest\flavor1\debug"/><source path="C:\Users\VZ\StudioProjects\FreeFlight2\app\build\generated\res\resValues\androidTest\flavor1\debug"/></dataSet><dataSet config="androidTestFlavor1"><source path="C:\Users\VZ\StudioProjects\FreeFlight2\app\src\androidTestFlavor1\res"/></dataSet><mergedItems/></merger>

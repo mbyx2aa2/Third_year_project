@@ -1,0 +1,60 @@
+apply plugin: 'com.android.model.application'
+sourceCompatibility = 1.7
+model {
+    android {
+        compileSdkVersion = 21
+        buildToolsVersion = "21.1.2"
+
+
+
+        defaultConfig.with {
+            applicationId = "com.parrot.freeflight"
+            minSdkVersion.apiLevel = 18
+            targetSdkVersion.apiLevel = 20
+            multiDexEnabled = true
+
+
+            buildConfigFields.with {
+                create() {
+                    type = "int"
+                    name = "VALUE"
+                    value = "1"
+
+                }
+            }
+        }
+
+
+    }
+    android.buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles.add(file('proguard-rules.txt'))
+            debuggable = true
+            multiDexEnabled = true
+
+        }
+
+    }
+
+    android.productFlavors {
+        create("flavor1") {
+            applicationId = "com.app"
+        }
+
+    }
+
+}
+
+dependencies {
+    repositories{
+        maven {
+            url 'C:\\Users\\VZ\\Desktop\\Project\\myo-android-sdk-0.10.0\\myorepository'
+        }
+    }
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/com.sony.rdis.receiver-20111206.jar')
+    compile files('libs/com.sony.rdis.receiver.utility-20111206.jar')
+    compile('com.thalmic:myosdk:0.10.+@aar')
+    compile ('com.android.support:multidex:1.0.1')
+}

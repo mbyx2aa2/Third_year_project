@@ -1,0 +1,23 @@
+-keep class com.parrot.freeflight.FreeFlightApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.parrot.freeflight.activities.SplashActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.ConnectActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.ControlDroneActivity { <init>(); }
+-keep class com.parrot.freeflight.service.DroneControlService { <init>(); }
+-keep class com.parrot.freeflight.activities.MediaActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.DashboardActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.UpdateFirmwareActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.GalleryActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.GuestSpaceActivity { <init>(); }
+-keep class com.parrot.freeflight.activities.BrowserActivity { <init>(); }
+-keep class com.parrot.freeflight.transcodeservice.TranscodingService { <init>(); }
+-keep class com.parrot.freeflight.updater.FirmwareUpdateService { <init>(); }
+-keep class com.thalmic.myo.scanner.ScanActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

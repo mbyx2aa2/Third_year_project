@@ -1,0 +1,78 @@
+-injars 'C:\Users\VZ\StudioProjects\FreeFlight2\app\build\intermediates\multi-dex\flavor1\debug\allclasses.jar'
+-outjars 'C:\Users\VZ\StudioProjects\FreeFlight2\app\build\intermediates\multi-dex\flavor1\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\VZ\AppData\Local\Android\sdk\build-tools\21.1.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\VZ\StudioProjects\FreeFlight2\app\build\intermediates\multi-dex\flavor1\debug\components.flags'
+
+
+-keep class com.parrot.freeflight.FreeFlightApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.parrot.freeflight.activities.SplashActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.ConnectActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.ControlDroneActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.service.DroneControlService {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.MediaActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.DashboardActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.UpdateFirmwareActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.GalleryActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.GuestSpaceActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.activities.BrowserActivity {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.transcodeservice.TranscodingService {
+    <init>();
+}
+
+-keep class com.parrot.freeflight.updater.FirmwareUpdateService {
+    <init>();
+}
+
+-keep class com.thalmic.myo.scanner.ScanActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
